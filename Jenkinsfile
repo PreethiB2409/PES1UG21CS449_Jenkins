@@ -5,6 +5,7 @@ pipeline {
             steps {
                 script {
                     sh 'g++ PES1UG21CS449-1.cpp -o PES1UG21CS449-1'
+                    python hello.py
                 }
             }
         }
